@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MD Tanzib Ehsan Sanglap — Computational Mechanics, Finite Element Analysis and Multiphysics Simulation at the University of Glasgow.">
+  <meta name="theme-color" content="#f7f9fc">
+  <title>MD Tanzib Ehsan Sanglap | Computational Mechanics & FEA</title>
+  <style>
+    :root { --ink:#19283a; --muted:#57697d; --accent:#1367a0; --line:#dce4eb; --paper:#ffffff; --tint:#f5f8fb; --chip:#eaf2f8; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+    a { color:var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible { outline:3px solid #8ec2ed; outline-offset:3px; }
+    .container { width:min(100% - 40px, 980px); margin:0 auto; }
+    .topbar { border-bottom:1px solid var(--line); background:#fff; position:sticky; top:0; z-index:10; }
+    .nav { min-height:64px; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; padding:10px 0; }
+    .brand { color:var(--ink); font-weight:750; font-size:1rem; letter-spacing:-.02em; }
+    .links { display:flex; gap:18px; flex-wrap:wrap; }
+    .links a { font-size:.87rem; color:#42556c; font-weight:600; }
+    .hero { padding:64px 0 46px; border-bottom:1px solid var(--line); }
+    .hero-grid { display:grid; grid-template-columns:minmax(0, 1fr) 170px; align-items:center; gap:40px; }
+    .eyebrow { font-size:.77rem; letter-spacing:.11em; text-transform:uppercase; color:#4e7190; font-weight:750; margin:0 0 12px; }
+    h1 { font-size:clamp(2rem,4vw,3.25rem); letter-spacing:-.045em; line-height:1.16; margin:0 0 16px; }
+    .hero p { color:var(--muted); max-width:680px; margin:0 0 16px; font-size:1.05rem; }
+    .portrait { aspect-ratio:1; border-radius:16px; display:grid; place-items:center; background:linear-gradient(135deg,#dcebf6,#f2f6fa); border:1px solid #c8dce9; color:#467796; font-size:3rem; font-weight:700; letter-spacing:-.1em; }
+    .small { font-size:.86rem; }
+    .pillrow { display:flex; gap:9px; flex-wrap:wrap; margin-top:22px; }
+    .pill { border:1px solid #d5e4f0; background:#f2f7fb; color:#2c5f82; padding:5px 11px; font-size:.79rem; border-radius:40px; font-weight:650; }
+    .actions { display:flex; align-items:center; gap:18px; flex-wrap:wrap; margin-top:26px; font-size:.91rem; font-weight:650; }
+    .actions .button { background:var(--accent); color:#fff; border-radius:7px; padding:9px 16px; }
+    section { padding:46px 0; border-bottom:1px solid var(--line); scroll-margin-top:82px; }
+    h2 { font-size:1.5rem; line-height:1.3; letter-spacing:-.025em; margin:0 0 22px; }
+    h3 { font-size:1.04rem; line-height:1.35; margin:0 0 8px; }
+    p { margin:0 0 14px; }
+    .muted { color:var(--muted); }
+    .layout { display:grid; grid-template-columns:1.6fr 1fr; gap:58px; }
+    .meta { padding:17px 20px; border:1px solid var(--line); background:var(--tint); border-radius:10px; align-self:start; }
+    .meta h3 { margin-bottom:10px; }
+    .meta p { margin-bottom:8px; }
+    .entry { padding:0 0 23px; margin:0 0 23px; border-bottom:1px solid var(--line); }
+    .entry:last-child { margin:0; padding:0; border:0; }
+    .date { font-size:.83rem; font-weight:700; color:#708095; margin-bottom:6px; }
+    .project-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:17px; }
+    .project { border:1px solid var(--line); background:#fff; border-radius:10px; padding:22px; }
+    .project p { color:var(--muted); margin:0 0 12px; }
+    .project .tag { font-size:.79rem; font-weight:700; color:#527692; margin-bottom:11px; }
+    .project a { font-size:.88rem; font-weight:700; }
+    .publication { padding:20px 0; border-bottom:1px solid var(--line); }
+    .publication:first-of-type { padding-top:0; }
+    .publication:last-child { border-bottom:0; }
+    .publication .authors { font-size:.91rem; color:var(--muted); margin-top:4px; }
+    .publication .venue { font-size:.88rem; color:#6a7d90; margin-bottom:0; }
+    .contact { background:var(--tint); margin-top:0; border:0; }
+    footer { padding:26px 0 34px; font-size:.82rem; color:#708095; }
+    @media(max-width:680px) { .container { width:min(100% - 28px, 980px); } .hero { padding:40px 0 35px; } .hero-grid { grid-template-columns:1fr; gap:22px; } .portrait { width:110px; height:110px; grid-row:1; font-size:2.25rem; } .layout,.project-grid { grid-template-columns:1fr; gap:20px; } .links { gap:12px; } .nav { align-items:start; } section { padding:36px 0; } }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="container nav" aria-label="Main navigation">
+      <a class="brand" href="#top">Tanzib Sanglap</a>
+      <div class="links">
+        <a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <div class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Computational Mechanics · Finite Element Analysis</div>
+          <h1>MD Tanzib Ehsan Sanglap</h1>
+          <p>PhD Researcher &amp; Research Assistant at the <strong>University of Glasgow</strong>, working on finite element modelling, nonlinear contact mechanics, and coupled multiphysics simulation.</p>
+          <div class="pillrow" aria-label="Research interests">
+            <span class="pill">FEA / FEM</span><span class="pill">Contact Mechanics</span><span class="pill">Multiphysics</span><span class="pill">MoFEM</span>
+          </div>
+          <div class="actions">
+            <a class="button" href="#research">Explore research</a>
+            <a href="https://www.linkedin.com/in/shonglap/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            <a href="https://orcid.org/0000-0003-3008-5896" target="_blank" rel="noopener noreferrer">ORCID ↗</a>
+          </div>
+        </div>
+        <!-- REPLACE THIS INITIALS BOX WITH YOUR PHOTO LATER, IF DESIRED -->
+        <div class="portrait" role="img" aria-label="Placeholder for profile photograph">TS</div>
+      </div>
+    </div>
+
+    <section id="about" class="container">
+      <h2>Biography</h2>
+      <div class="layout">
+        <div>
+          <p>I am a PhD researcher in computational engineering at the University of Glasgow and a member of the Glasgow Computational Engineering Centre. My research focuses on the development and validation of finite element models for complex coupled physical processes.</p>
+          <p>My current work brings together nonlinear contact mechanics, measured surface roughness, electrostatics, and time-dependent electrical response to study triboelectric energy harvesting devices.</p>
+          <p>I am interested in applying numerical methods and scientific computing to demanding engineering simulation and R&amp;D problems.</p>
+        </div>
+        <aside class="meta">
+          <h3>Research interests</h3>
+          <p>Finite Element Analysis (FEA)</p>
+          <p>Computational Mechanics</p>
+          <p>Nonlinear Contact Mechanics</p>
+          <p>Multiphysics Simulation</p>
+          <p>Scientific Computing</p>
+          <p style="margin-top:15px"><a href="https://www.gla.ac.uk/pgrs/mdtanzibehsansanglap/" target="_blank" rel="noopener noreferrer">University profile ↗</a></p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="research" class="container">
+      <h2>Selected research &amp; projects</h2>
+      <div class="project-grid">
+        <article class="project">
+          <p class="tag">NONLINEAR FEM · CONTACT MECHANICS</p>
+          <h3>Rough-surface contact modelling</h3>
+          <p>Finite element contact analysis incorporating measured surface topography to predict real contact area under mechanical loading.</p>
+          <a href="https://doi.org/10.1016/j.nanoen.2026.112314" target="_blank" rel="noopener noreferrer">Related publication ↗</a>
+        </article>
+        <article class="project">
+          <p class="tag">MULTIPHYSICS · ELECTROSTATICS</p>
+          <h3>Triboelectric energy harvesting simulation</h3>
+          <p>Coupled mechanical, electrostatic, and circuit models to investigate transient device behaviour and improve predictive accuracy.</p>
+          <a href="https://mofem.eng.gla.ac.uk/applications.html" target="_blank" rel="noopener noreferrer">MoFEM applications ↗</a>
+        </article>
+      </div>
+      <p class="small muted" style="margin-top:17px"><!-- EDIT ME: Add your own permitted figures, simulation animations, GitHub projects and model verification results here. --> Add simulation figures or a short case study here to show recruiters the modelling process, mesh, validation and results.</p>
+    </section>
+
+    <section id="publications" class="container">
+      <h2>Selected publications</h2>
+      <article class="publication">
+        <h3><a href="https://doi.org/10.1016/j.nanoen.2026.112314" target="_blank" rel="noopener noreferrer">A multiphysics model for triboelectric nanogenerator design with explicit surface roughness representation ↗</a></h3>
+        <p class="authors"><strong>MD Tanzib Ehsan Sanglap</strong> and collaborators</p>
+        <p class="venue"><em>Nano Energy</em>, 2026.</p>
+      </article>
+      <article class="publication">
+        <h3><a href="https://doi.org/10.1115/1.4054476" target="_blank" rel="noopener noreferrer">Influence of Accident-Tolerant Fuel With Steel Cladding for Sustainable Heat Transfer in the Reactor Core of VVER-1200 ↗</a></h3>
+        <p class="authors"><strong>MD Tanzib Ehsan Sanglap</strong></p>
+        <p class="venue"><em>ASME Open Journal of Engineering</em>, 2022.</p>
+      </article>
+      <p class="small muted" style="margin-top:12px"><!-- EDIT ME: Include complete author lists and additional publications as needed. --> Edit these entries and add conference proceedings, preprints and links to permitted PDFs.</p>
+    </section>
+
+    <section id="experience" class="container">
+      <h2>Experience &amp; education</h2>
+      <div class="entry">
+        <div class="date">May 2026 – Present</div>
+        <h3>Research Assistant (part-time)</h3>
+        <p class="muted">James Watt School of Engineering, University of Glasgow</p>
+      </div>
+      <div class="entry">
+        <div class="date">December 2022 – Present</div>
+        <h3>PhD Researcher</h3>
+        <p class="muted">University of Glasgow · Transient simulation of triboelectric nanogenerators considering surface roughness</p>
+      </div>
+      <p class="small muted"><!-- EDIT ME: Add earlier degrees and positions after checking dates and titles. --> Add your earlier degrees, previous engineering roles and relevant awards here.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>For research collaboration or computational engineering opportunities:</p>
+        <p><strong>Email:</strong> <a href="mailto:m.sanglap.1@research.gla.ac.uk">m.sanglap.1@research.gla.ac.uk</a></p>
+        <p><a href="https://www.linkedin.com/in/shonglap/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a> &nbsp;·&nbsp; <a href="https://orcid.org/0000-0003-3008-5896" target="_blank" rel="noopener noreferrer">ORCID ↗</a></p>
+        <!-- EDIT ME: Add a PDF CV later: <a href="assets/Tanzib_CV.pdf">Download CV</a> -->
+      </div>
+    </section>
+  </main>
+  <footer class="container">© MD Tanzib Ehsan Sanglap. Hosted on GitHub Pages.</footer>
+</body>
+</html>
